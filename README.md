@@ -30,6 +30,10 @@ echo '<p>Comment ça va bien ?</p>';
 </p>
 ```
 
+## Les variables
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Montreal_Comiccon_2016_-_Solid_Snake_%2827978588430%29.jpg/1599px-Montreal_Comiccon_2016_-_Solid_Snake_%2827978588430%29.jpg)
+
 ## Des **variables** _dans_ du HTML
 
 ```php
@@ -111,6 +115,10 @@ modifiez le code précédent pour calculer à peu près votre âge.
 
 ## Les conditions
 
+![](https://static.im-a-puzzle.com/gallery/Miscellaneous/Doors/Choose-the-right-door.jpg)
+
+##
+
 ```php
 <?php
 
@@ -141,3 +149,20 @@ if ($cas > 200000) {
 Trouvez sur un site de cartographie les coordonnées de votre ville, si la latitude est au-dessus de **43.9416582**, vous êtes du Nord, sinon du Sud.
 
 [](https://sylvainmrs.github.io/introduction-php/exo1.75.html)
+
+## Les boucles
+
+![](https://live.staticflickr.com/3770/10104990125_95ab6722d2_k.jpg)
+
+##
+
+```php
+<?php
+// dori-dans-un-bocal.php
+
+for ($i = 0; $i < 10; $i++) {
+    echo "Tiens, c'est sympa ici !<br />";
+}
+```
+
+[](https://sylvainmrs.github.io/introduction-php/dori-dans-un-bocal.html)
