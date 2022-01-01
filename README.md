@@ -156,13 +156,20 @@ Trouvez sur un site de cartographie les coordonnées de votre ville, si la latit
 
 ##
 
+[](https://sylvainmrs.github.io/introduction-php/dori-dans-un-bocal.html)
+
 ```php
 <?php
 // dori-dans-un-bocal.php
+$tour = 0;
 
-for ($i = 0; $i < 10; $i++) {
+while ($tour < 10) {
+    echo "Tiens, c'est sympa ici !<br />";
+    $tour = $tour + 1;
+}
+
+/* ou en plus compact */
+for ($tour = 0; $tour < 10; $tour++) {
     echo "Tiens, c'est sympa ici !<br />";
 }
 ```
-
-[](https://sylvainmrs.github.io/introduction-php/dori-dans-un-bocal.html)
