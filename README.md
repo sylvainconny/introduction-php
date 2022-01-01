@@ -2,6 +2,10 @@
 
 ![](https://live.staticflickr.com/7906/47065983791_a0f0895d28_b.jpg)
 
+<!-- notes -->
+
+Présentation à retrouver sur [ohmydeck!](https://app.ohmydeck.com/sylvain/decks/uSP7zQxXuZdz6UVQt8vEQE)
+
 ## PHP c'est quoi ?
 
 _C'est pour écrire du HTML mais en plus compliqué..._
@@ -81,3 +85,24 @@ Dans votre dossier de travail (racine du serveur ou sous-dossier), créez un fic
 de retourner le résultat suivant en utilisant des variables correctement typées pour le **nom** et l'**âge**:
 
 [](https://sylvainmrs.github.io/introduction-php/exo1.html)
+
+## 0.7734
+
+On peut également faire des calculs en PHP
+
+```php
+<?php
+
+$vanDamme = 1 + 1; // 2 ?
+
+$buzz = 1 / 0; // vers l'infini...
+
+$blackFriday = 1999 * 0.75; // quelle promo
+
+$resteEuclidien = 5 % 4; // reste 1
+```
+
+## Exo 1 et demi
+
+Sachant que **date('Y')** vous donnera l'année courante à 4 chiffres (exemple: 2022),
+modifiez le code précédent pour calculer à peu près votre âge.
