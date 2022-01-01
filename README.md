@@ -135,3 +135,9 @@ if ($cas > 200000) {
     echo "Yolo";
 }
 ```
+
+## Exo 1 3/4
+
+Trouvez sur un site de cartographie les coordonnées de votre ville, si la latitude est au-dessus de **43.9416582**, vous êtes du Nord, sinon du Sud.
+
+[](https://sylvainmrs.github.io/introduction-php/exo1.75.html)
