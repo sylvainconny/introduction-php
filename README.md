@@ -42,7 +42,7 @@ echo '<p>Comment ça va bien ?</p>';
 ## La magie du serveur
 
 Le serveur PHP transforme tout ce qui est entre `<?php [...] ?>` en code HTML.
-![](https://github.com/sylvainmrs/bapteme-oclock/blob/main/assets/php-server.jpg?raw=true)
+![](https://sylvainmrs.github.io/introduction-php/assets/php-server.jpg)
 
 ## Nomenclature des variables
 
@@ -77,12 +77,7 @@ $aussiBooleen = false;
 
 ## $premier_Exo
 
-Dans **/var/www/html**, créer un fichier **bapteme-exo-01.php** et essayez
-d'afficher le résultat suivant:
+Dans votre dossier de travail (racine du serveur ou sous-dossier), créez un fichier **exo-01.php** et essayez
+de retourner le résultat suivant en utilisant des variables correctement typées pour le **nom** et l'**âge**:
 
-```html
-<p>
-  Bonjour, je m'appelle [votre nom]<br />
-  et j'ai [votre âge] ans.
-</p>
-```
+[](https://sylvainmrs.github.io/introduction-php/exo1.html)
