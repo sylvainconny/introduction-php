@@ -2,88 +2,44 @@
 
 ![](https://live.staticflickr.com/7906/47065983791_a0f0895d28_b.jpg)
 
-## À quoi ça sert ?
+## PHP c'est quoi ?
 
-### Yo
+_C'est pour écrire du HTML mais en plus compliqué..._
 
-Dans **/var/www/html**, créer un fichier **bapteme-01-01.php** et écrire le code suivant:
-
-```php
-<?php
-
-echo 'Bonjour les gens !';
-```
-
-Dans le navigateur, ouvrir [http://localhost/bapteme-01-01.php](http://localhost/bapteme-01-01.php).
-
-Il doit s'afficher **Bonjour les gens !**, mais c'est un peu moche.
-
-<!-- notes -->
-
-- Le code php est systématiquement précédé par <?php\n
-
-### <h1>Ouech ouech</h1>
-
-Dans **/var/www/html**, créer un fichier **bapteme-01-02.php** et écrire le code suivant:
+## Écrire du HTML
 
 ```php
 <?php
 
-echo '<h1>Bonjour les gens !</h1>';
+echo '<h1>Bonjour les gens</h1>';
+echo '<p>Comment ça va bien ?</p>';
 ```
 
-Dans le navigateur, ouvrir [http://localhost/bapteme-01-02.php](http://localhost/bapteme-01-02.php).
-
-C'est déjà mieux.
-
-<!-- notes -->
-
-- clic droit / Afficher le code source de la page
-
-### <h1> Salutations </h1>
-
-Dans **/var/www/html**, créer un fichier **bapteme-01-03.php** et écrire le code suivant:
+## Écrire _dans_ du HTML
 
 ```php
 <h1>
-  <?php echo 'Bonjour les gens !'; ?>
+    <?php echo 'Bonjour les gens'; ?>
 </h1>
+<p>
+    <?php echo 'Comment ça va bien ?'; ?>
+</p>
 ```
 
-Dans le navigateur, ouvrir [http://localhost/bapteme-01-03.php](http://localhost/bapteme-01-03.php).
-
-C'est exactement le même résultat... 🤔 (ou presque)
-
-<!-- notes -->
-
-- clic droit / Afficher le code source de la page
-- résultat légèrement différent
-
-### $Variables distinguées
-
-Dans **/var/www/html**, créer un fichier **bapteme-01-04.php** et écrire le code suivant:
+## Des **variables** _dans_ du HTML
 
 ```php
 <?php
+    $nom = "o'clock";
+?>
 
-$bonjour = 'Bonjour les gens !';
-echo $bonjour;
+<h1>
+    Bienvenue les gens de chez
+    <?php echo $nom; ?>
+</h1>
 ```
 
-Dans le navigateur, ouvrir [http://localhost/bapteme-01-04.php](http://localhost/bapteme-01-04.php).
+## La magie du serveur
 
-### Définition ?
-
-_Le PHP c'est pour écrire du HTML mais en plus compliqué..._
-
-## Exercice 2
-
-conditions
-
-## Exercice 3
-
-boucles
-
-```
-
-```
+Le serveur PHP transforme tout ce qui est entre `<?php ?>` en texte, en code HTML.
+![](https://github.com/sylvainmrs/bapteme-oclock/blob/main/assets/server-img.jpg)
