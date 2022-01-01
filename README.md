@@ -173,3 +173,24 @@ for ($tour = 0; $tour < 10; $tour++) {
     echo "Tiens, c'est sympa ici !<br />";
 }
 ```
+
+##
+
+[](https://sylvainmrs.github.io/introduction-php/governator.html)
+
+```php
+<?php
+
+for ($annee = 2001; $annee < 2021; $annee++) {
+  if ($annee > 2000 && $annee <= 2008) {
+    echo '<p>' . $annee . ': Attack Irak!</p>';
+  }
+  if ($annee > 2008 && $annee <= 2016) {
+    echo "<p>$annee: Drop mic</p>";
+  }
+  if ($annee > 2016 && $annee <= 2020) {
+    echo "<p>{$annee}: You're fake news!</p>";
+  }
+}
+
+```
