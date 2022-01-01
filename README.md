@@ -42,4 +42,4 @@ echo '<p>Comment ça va bien ?</p>';
 ## La magie du serveur
 
 Le serveur PHP transforme tout ce qui est entre `<?php ?>` en texte, en code HTML.
-![](https://github.com/sylvainmrs/bapteme-oclock/blob/main/assets/server-img.jpg)
+![](https://github.com/sylvainmrs/bapteme-oclock/blob/main/assets/server-img.jpg?raw=true)
