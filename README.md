@@ -41,5 +41,48 @@ echo '<p>Comment ça va bien ?</p>';
 
 ## La magie du serveur
 
-Le serveur PHP transforme tout ce qui est entre `<?php ?>` en texte, en code HTML.
-![](https://github.com/sylvainmrs/bapteme-oclock/blob/main/assets/server-img.jpg?raw=true)
+Le serveur PHP transforme tout ce qui est entre `<?php [...] ?>` en code HTML.
+![](https://github.com/sylvainmrs/bapteme-oclock/blob/main/assets/php-server.jpg?raw=true)
+
+## Nomenclature des variables
+
+NB: des humains peuvent lire votre code.
+
+```php
+<?php
+
+$chaineDeCaractere; ✅
+$chainedecaractere; ✅
+$CHAINEDECARACTERE; ✅
+$chaine_de_caractere; ✅
+$_chaine_de_caractere; ✅
+$Chaine_De_Caractere; ✅
+$chaine-de-caractere; ❌
+$1chaineDeCaractere; ❌
+$chaîneDeCaractère; ❌
+```
+
+## Différents types de variables
+
+```php
+<?php
+
+$chaineDeCaractere = "Yo !";
+$chaineDeCaractere2 = 'Ouech ouech les amis';
+$nombreEntier = 42;
+$nombreFlotant = 3.14;
+$booleen = true;
+$aussiBooleen = false;
+```
+
+## $premier_Exo
+
+Dans **/var/www/html**, créer un fichier **bapteme-exo-01.php** et essayez
+d'afficher le résultat suivant:
+
+```html
+<p>
+  Bonjour, je m'appelle [votre nom]<br />
+  et j'ai [votre âge] ans.
+</p>
+```
