@@ -228,6 +228,8 @@ de calculer la somme suivante :
 
 Depuis on a inventé PHP... et les ordinateurs en général.
 
-## Exo 4 🤯🤒😶‍🌫️
+## Exo 4 🤯🤒
 
-ToDo
+Pour tous les nombres de 1 à 100 afficher le nombre puis **fizz** si le nombre est divisble par **3**, afficher **buzz** si divisible par **5**, afficher **fizzbuzz** si divisble par **3** et **5**.
+
+[](https://sylvainmrs.github.io/introduction-php/exo4.html)
