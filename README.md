@@ -150,6 +150,30 @@ Trouvez sur un site de cartographie les coordonnées de votre ville, si la latit
 
 [](https://sylvainmrs.github.io/introduction-php/exo1.75.html)
 
+## Exo 2 👀
+
+```php
+<?php
+$nom = $_POST['nom'];
+$prenom = $_POST['prenom'];
+// modifier ici
+echo $nom;
+echo $prenom;
+?>
+
+<form method="POST">
+    <input type="text" name="prenom" id="prenom" />
+    <input type="text" name="nom" id="nom" />
+</form>
+```
+
+Copiez le code de exo2.php du [dépôt github](https://github.com/sylvainmrs/introduction-php). L'objectif de cet exo:
+créer des conditions qui permettent de vérifier que l'utilisateur a bien
+indiqué un nom et un prénom sachant que _strlen($nom)_ renvoie le nombre
+de caractères dans la variable _$nom_.
+
+**Exemple:** _strlen("patate")_ ➡️ 6
+
 ## Les boucles
 
 ![](https://live.staticflickr.com/3770/10104990125_95ab6722d2_k.jpg)
@@ -195,7 +219,7 @@ for ($annee = 2001; $annee < 2021; $annee++) {
 
 ```
 
-## Exo 2 🎉
+## Exo 3 🎉
 
 Gauss étant gosse avait trouvé un moyen efficace
 de calculer la somme suivante :
@@ -203,3 +227,7 @@ de calculer la somme suivante :
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 + 31 + 32 + 33 + 34 + 35 + 36 + 37 + 38 + 39 + 40 + 41 + 42 + 43 + 44 + 45 + 46 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 56 + 57 + 58 + 59 + 60 + 61 + 62 + 63 + 64 + 65 + 66 + 67 + 68 + 69 + 70 + 71 + 72 + 73 + 74 + 75 + 76 + 77 + 78 + 79 + 80 + 81 + 82 + 83 + 84 + 85 + 86 + 87 + 88 + 89 + 90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99 + 100 = 5050.
 
 Depuis on a inventé PHP... et les ordinateurs en général.
+
+## Exo 4 🤯🤒😶‍🌫️
+
+ToDo
