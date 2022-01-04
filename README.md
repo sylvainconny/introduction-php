@@ -120,6 +120,22 @@ modifiez le code précédent pour calculer à peu près votre âge.
 ##
 
 ```php
+if ($paiement > $solde) {
+    echo "Paiement refusé";
+} else {
+    echo "Paiement accepté";
+}
+```
+
+## Exo 1 3/4
+
+Trouvez sur un site de cartographie les coordonnées de votre ville, si la latitude est au-dessus de **43.9416582**, vous êtes du Nord, sinon du Sud.
+
+[](https://sylvainmrs.github.io/introduction-php/exo1.75.html)
+
+##
+
+```php
 <?php
 
 $dansUnBar = true;
@@ -133,22 +149,6 @@ if ($dansUnBar && $debout) {
     echo "je suis tout seul";
 }
 ```
-
-##
-
-```php
-if ($cas > 200000) {
-    echo "Alerte écarlate à points rouges";
-} else {
-    echo "Yolo";
-}
-```
-
-## Exo 1 3/4
-
-Trouvez sur un site de cartographie les coordonnées de votre ville, si la latitude est au-dessus de **43.9416582**, vous êtes du Nord, sinon du Sud.
-
-[](https://sylvainmrs.github.io/introduction-php/exo1.75.html)
 
 ## Exo 2 👀
 
@@ -198,6 +198,15 @@ for ($tour = 0; $tour < 10; $tour++) {
 }
 ```
 
+## Exo 3 🎉
+
+Gauss étant gosse avait trouvé un moyen efficace
+de calculer la somme suivante :
+
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 + 31 + 32 + 33 + 34 + 35 + 36 + 37 + 38 + 39 + 40 + 41 + 42 + 43 + 44 + 45 + 46 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 56 + 57 + 58 + 59 + 60 + 61 + 62 + 63 + 64 + 65 + 66 + 67 + 68 + 69 + 70 + 71 + 72 + 73 + 74 + 75 + 76 + 77 + 78 + 79 + 80 + 81 + 82 + 83 + 84 + 85 + 86 + 87 + 88 + 89 + 90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99 + 100 = 5050.
+
+Depuis on a inventé PHP... et les ordinateurs en général.
+
 ##
 
 [](https://sylvainmrs.github.io/introduction-php/governator.html)
@@ -218,15 +227,6 @@ for ($annee = 2001; $annee < 2021; $annee++) {
 }
 
 ```
-
-## Exo 3 🎉
-
-Gauss étant gosse avait trouvé un moyen efficace
-de calculer la somme suivante :
-
-1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 + 31 + 32 + 33 + 34 + 35 + 36 + 37 + 38 + 39 + 40 + 41 + 42 + 43 + 44 + 45 + 46 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 56 + 57 + 58 + 59 + 60 + 61 + 62 + 63 + 64 + 65 + 66 + 67 + 68 + 69 + 70 + 71 + 72 + 73 + 74 + 75 + 76 + 77 + 78 + 79 + 80 + 81 + 82 + 83 + 84 + 85 + 86 + 87 + 88 + 89 + 90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99 + 100 = 5050.
-
-Depuis on a inventé PHP... et les ordinateurs en général.
 
 ## Exo 4 🤯🤒
 
